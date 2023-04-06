@@ -1,0 +1,33 @@
+{
+  "name": "tamagui-vite-demo",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "TAMAGUI_TARGET=web vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@tamagui/config": "^1.11.2",
+    "@tamagui/web": "^1.11.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-native": "0.0.0",
+    "react-native-web": "^0.19.2",
+    "tamagui": "^1.11.2"
+  },
+  "devDependencies": {
+    "@tamagui/vite-plugin": "^1.11.2",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@vitejs/plugin-react-swc": "^3.0.0",
+    "typescript": "^4.9.3",
+    "vite": "^4.2.0"
+  },
+  "pnpm": {
+    "patchedDependencies": {
+      "@tamagui/vite-plugin@1.11.2": "patches/@tamagui__vite-plugin@1.11.2.patch"
+    }
+  }
+}

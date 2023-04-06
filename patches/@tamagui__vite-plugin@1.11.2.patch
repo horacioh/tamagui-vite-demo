@@ -1,0 +1,12 @@
+diff --git a/package.json b/package.json
+index b583d3f596e95d2a6007edb63df26b676f354f81..3dade1a3ea8662e468dfc226b60e8c2b45c44123 100644
+--- a/package.json
++++ b/package.json
+@@ -4,6 +4,7 @@
+   "types": "./types/index.d.ts",
+   "main": "./dist/cjs/index.js",
+   "module": "./dist/esm/index.js",
++  "type": "module",
+   "license": "MIT",
+   "files": [
+     "src",
